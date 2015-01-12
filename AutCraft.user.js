@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutCraft Web Helper
 // @namespace    http://mantrasoftware.net/
-// @version      0.3
+// @version      0.4
 // @description  Changes various parts of the AutCraft website to make things a little easier.
 // @author       Rodney Beck <denney@mantrasoftware.net>
 // @match        http://www.autcraft.com/dashboard/applications/detail/id/*
@@ -13,7 +13,13 @@
 // @license      GPLv3
 // ==/UserScript==
 
-// Add some helpful links to the applications page.
+// IP address checking
+var ip = $("div.details-avatar").clone();
+ip.children().remove();
+ip = ip.text().trim();
+$("div.details-avatar").append(" >> <a target=\"_blank\" href=\"http://whatismyipaddress.com/ip/" + ip + "\">What's My IP Address</a>");
+
+// Username checking
 var field = $("div[hash|='bs9bnytb9d'] .input-data");
 var username = field.html();
 
