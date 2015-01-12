@@ -1,10 +1,11 @@
 // ==UserScript==
 // @name         AutCraft Web Helper
 // @namespace    http://mantrasoftware.net/
-// @version      0.2
+// @version      0.3
 // @description  Changes various parts of the AutCraft website to make things a little easier.
 // @author       Rodney Beck <denney@mantrasoftware.net>
 // @match        http://www.autcraft.com/dashboard/applications/detail/id/*
+// @match        http://autcraft.com/dashboard/applications/detail/id/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-2.1.3.min.js
 // @updateURL    https://raw.githubusercontent.com/Denney/AutCraftWebHelper/master/AutCraft.user.js
