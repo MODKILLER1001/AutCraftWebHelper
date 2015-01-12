@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutCraft Web Helper
 // @namespace    http://mantrasoftware.net/
-// @version      0.1
+// @version      0.2
 // @description  Changes various parts of the AutCraft website to make things a little easier.
 // @author       Rodney Beck <denney@mantrasoftware.net>
 // @match        http://www.autcraft.com/dashboard/applications/detail/id/*
@@ -16,7 +16,7 @@
 var field = $("div[hash|='bs9bnytb9d'] .input-data");
 var username = field.html();
 
-field.append("<br>>> <a target=\"_blank\" href=\"http://mcbans.com/user/" + username + "\">MCBans</a>");
+field.append("<br>>> <a target=\"_blank\" href=\"http://mcbans.com/player/" + username + "\">MCBans</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"http://mcbouncer.com/u/" + username + "\">MCBouncer</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com.au/#newwindow=1&q=" + username + "\">Google (username)</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com.au/#newwindow=1&q=" + username + " youtube\">Google (YouTube)</a>");
