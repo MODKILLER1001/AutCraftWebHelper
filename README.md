@@ -1,2 +1,24 @@
-# AutCraftWebHelper
+# AutCraft Web Helper
 Changes various parts of the AutCraft website to make things a little easier.
+
+This is mostly for administration purposes rather than general users.
+
+## Installation in Chrome
+If you have [Chrome](http://www.google.com/chrome/), install the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) extension. Once installed, click the script URL below and it should open an installation screen.
+
+## Installation in Firefox
+If you have [Firefox](http://www.mozilla.com/firefox/), install the [Greasemonkey](https://addons.mozilla.org/firefox/addon/748) addon. Once installed, click the script URL below and it should open an installation screen.
+
+## Other Browsers
+If you can find a way to install a user script in your browser of choice, the script URL below is the script you should install. I do not support other browsers though so I can't help you with problems.
+
+## Script URL
+Once you have an extension / addon installed that supports user scripts, click the link below to install the user script in your browser:
+
+https://raw.githubusercontent.com/Denney/AutCraftWebHelper/master/AutCraft.user.js
+
+## Issues / Suggestions
+If you any issues with the script or would like to make a suggestion, create a [new issue](https://github.com/Denney/AutCraftWebHelper/issues) and let me know.
+
+## License
+This simple script is released under the [GPL v3.0](https://raw.githubusercontent.com/Denney/AutCraftWebHelper/master/LICENSE) license.
