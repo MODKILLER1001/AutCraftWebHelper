@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutCraft Web Helper
 // @namespace    http://mantrasoftware.net/
-// @version      0.6
+// @version      0.7
 // @description  Changes various parts of the AutCraft website to make things a little easier.
 // @author       Rodney Beck <denney@mantrasoftware.net>
 // @match        http://www.autcraft.com/dashboard/applications/detail/id/*
@@ -28,9 +28,9 @@ GM_xmlhttpRequest({
   url: "http://api.fishbans.com/bans/" + username,
   onload: function(data) {
     var parsed = $.parseJSON(data.responseText);
-    
+
     field.append("<br>");
-    
+
     if (parsed.success) {
       field.append("<br>Ban information provided by <a target=\"_blank\" href=\"http://fishbans.com/u/" + username + "\">Fishbans</a>.");
       field.append("<br>>> <a target=\"_blank\" href=\"http://mcbans.com/player/" + username + "\">MCBans</a>: " + parsed.bans.service.mcbans.bans);
@@ -68,8 +68,9 @@ GM_xmlhttpRequest({
       field.append("<br>>> <a target=\"_blank\" href=\"http://mcbans.com/player/" + username + "\">MCBans</a>");
       field.append("<br>>> <a target=\"_blank\" href=\"http://mcbouncer.com/u/" + username + "\">MCBouncer</a>");
     }
-    
+
     field.append("<br><br><strong>Other Useful Links</strong>");
+    field.append("<br>>> <a target=\"_blank\" href=\"http://minecraftnames.com/lookup.php?account=" + username + "\">Minecraft Name Lookup</a>");
     field.append("<br>>> <a target=\"_blank\" href=\"http://minecraft-skin-viewer.com/player/" + username + "\">Minecraft Skin Viewer</a>");
     field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com.au/#newwindow=1&q=" + username + "\">Google (username)</a>");
     field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com.au/#newwindow=1&q=%22" + username + "%22 youtube\">Google (YouTube)</a>");
