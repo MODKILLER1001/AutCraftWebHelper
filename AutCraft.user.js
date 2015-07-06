@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutCraft Web Helper
 // @namespace    http://mantrasoftware.net/
-// @version      0.8
+// @version      0.9
 // @description  Changes various parts of the AutCraft website to make things a little easier.
 // @author       Rodney Beck <denney@mantrasoftware.net>
 // @match        http://www.autcraft.com/dashboard/applications/detail/id/*
@@ -28,6 +28,7 @@ field.append("<br>>> <a target=\"_blank\" href=\"http://mcbans.com/player/" + us
 field.append("<br>>> <a target=\"_blank\" href=\"http://mcbouncer.com/u/" + username + "\">MCBouncer</a>");
 
 field.append("<br><br><strong>Other Useful Links</strong>");
+field.append("<br>>> <a target=\"_blank\" href=\"http://namemc.com/s?" + username + "\">NameMC</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"http://minecraftnames.com/lookup.php?account=" + username + "\">Minecraft Name Lookup</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"http://minecraft-skin-viewer.com/player/" + username + "\">Minecraft Skin Viewer</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com.au/#newwindow=1&q=" + username + "\">Google (username)</a>");
