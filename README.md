@@ -1,4 +1,5 @@
-# Forked by MODKILLER1001 all code belongs to github.com/denney
+# Forked by MODKILLER1001
+All code belongs to github.com/denney
 
 ## AutCraft Web Helper
 Changes various parts of the AutCraft website to make things a little easier.
