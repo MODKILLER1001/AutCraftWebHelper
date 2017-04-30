@@ -1,4 +1,6 @@
-# AutCraft Web Helper
+# Forked by MODKILLER1001 all code belongs to github.com/denney
+
+## AutCraft Web Helper
 Changes various parts of the AutCraft website to make things a little easier.
 
 This is mostly for administration purposes rather than general users.
