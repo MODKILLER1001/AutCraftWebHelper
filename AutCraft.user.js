@@ -3,13 +3,13 @@
 // @namespace    http://mantrasoftware.net/
 // @version      0.9
 // @description  Changes various parts of the AutCraft website to make things a little easier.
-// @author       Rodney Beck <denney@mantrasoftware.net>
+// @author       Rodney Beck (Forked by MODKILLER1001) <denney@mantrasoftware.net>
 // @match        http://www.autcraft.com/dashboard/applications/detail/id/*
 // @match        http://autcraft.com/dashboard/applications/detail/id/*
 // @grant        GM_xmlhttpRequest
 // @require      http://code.jquery.com/jquery-2.1.3.min.js
-// @updateURL    https://raw.githubusercontent.com/Denney/AutCraftWebHelper/master/AutCraft.user.js
-// @downloadURL  https://raw.githubusercontent.com/Denney/AutCraftWebHelper/master/AutCraft.user.js
+// @updateURL    https://raw.githubusercontent.com/MODKILLER1001/AutCraftWebHelper/master/AutCraft.user.js
+// @downloadURL  https://raw.githubusercontent.com/MODKILLER1001/AutCraftWebHelper/master/AutCraft.user.js
 // @license      GPLv3
 // ==/UserScript==
 
@@ -23,7 +23,7 @@ $("div.details-avatar").append(" >> <a target=\"_blank\" href=\"http://whatismyi
 var field = $("div[hash|='bs9bnytb9d'] .input-data");
 var username = field.html();
 
-field.append("<br>>> <a target=\"_blank\" href=\"http://fishbans.com/u/" + username + "\">Fishbans</a>");
+field.append("<br>>> <a target=\"_blank\" href=\"http://fishbans.com/u/" + username + "\">Fishbans (Temporarily Closed)</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"http://mcbans.com/player/" + username + "\">MCBans</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"http://mcbouncer.com/u/" + username + "\">MCBouncer</a>");
 
