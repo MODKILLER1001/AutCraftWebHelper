@@ -1,5 +1,5 @@
 # Forked by MODKILLER1001
-All code belongs to [Dreytac](https://github.com/dreytac/)
+All code belongs to [Dreytac](https://github.com/dreytac/). The original code is [here](https://github.com/Dreytac/AutCraftWebHelper).
 
 ## AutCraft Web Helper
 Changes various parts of the AutCraft website to make things a little easier.
