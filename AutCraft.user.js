@@ -23,12 +23,12 @@ $("div.details-avatar").append(" >> <a target=\"_blank\" href=\"http://whatismyi
 var field = $("div[hash|='bs9bnytb9d'] .input-data");
 var username = field.html();
 
-field.append("<br>>> <a target=\"_blank\" href=\"http://fishbans.com/u/" + username + "\">Fishbans (Temporarily Closed)</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"http://mcbans.com/player/" + username + "\">MCBans</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"http://mcbouncer.com/u/" + username + "\">MCBouncer</a>");
 
 field.append("<br><br><strong>Other Useful Links</strong>");
-field.append("<br>>> <a target=\"_blank\" href=\"http://namemc.com/name?" + username + "\">NameMC</a>");
+field.append("<br>>> <a target=\"_blank\" href=\"http://namemc.com/name?" + username + "\">NameMC Lookup (previous name owners and previous names)</a>");
+field.append("<br>>> <a target=\"_blank\" href=\"http://namemc.com/profile?" + username + "\">NameMC Profile (more in depth info about that player)</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"http://minecraftnames.com/lookup.php?account=" + username + "\">Minecraft Name Lookup</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"http://minecraft-skin-viewer.com/player/" + username + "\">Minecraft Skin Viewer</a>");
 field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com.au/#newwindow=1&q=" + username + "\">Google (username)</a>");
