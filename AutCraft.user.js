@@ -1,11 +1,13 @@
 // ==UserScript==
 // @name         AutCraft Web Helper
 // @namespace    http://mantrasoftware.net/
-// @version      0.9
+// @version      0.10
 // @description  Changes various parts of the AutCraft website to make things a little easier.
 // @author       Rodney Beck (Forked by MODKILLER1001) <denney@mantrasoftware.net>
 // @match        http://www.autcraft.com/dashboard/applications/detail/id/*
 // @match        http://autcraft.com/dashboard/applications/detail/id/*
+// @match        http://www.autcraft.com/dashboard/applications/application?app_id=*
+// @match        http://autcraft.com/dashboard/applications/application?app_id=*
 // @grant        GM_xmlhttpRequest
 // @require      http://code.jquery.com/jquery-2.1.3.min.js
 // @updateURL    https://raw.githubusercontent.com/MODKILLER1001/AutCraftWebHelper/master/AutCraft.user.js
