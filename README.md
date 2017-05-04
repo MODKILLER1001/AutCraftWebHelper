@@ -1,6 +1,9 @@
 # Forked by MODKILLER1001
 All code belongs to [Dreytac](https://github.com/dreytac/). The original code is [here](https://github.com/Dreytac/AutCraftWebHelper).
 
+## Optimized for different countries.
+AutcraftCA uses [Google Canada](google.ca). All countries that are supported go by the abbreviation of the country following the word Autcraft.
+
 ## AutCraft Web Helper
 Changes various parts of the AutCraft website to make things a little easier.
 
@@ -19,6 +22,8 @@ If you can find a way to install a user script in your browser of choice, the sc
 Once you have an extension / addon installed that supports user scripts, click the link below to install the user script in your browser:
 
 https://raw.githubusercontent.com/MODKILLER1001/AutCraftWebHelper/master/AutCraft.user.js
+https://raw.githubusercontent.com/MODKILLER1001/AutCraftWebHelper/master/AutCraftUS.user.js
+https://raw.githubusercontent.com/MODKILLER1001/AutCraftWebHelper/master/AutCraftCA.user.js
 
 ## Issues / Suggestions
 If you any issues with the script or would like to make a suggestion, create a [new issue](https://github.com/MODKILLER1001/AutCraftWebHelper/issues) and let me know.
