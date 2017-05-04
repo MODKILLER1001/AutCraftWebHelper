@@ -2,7 +2,7 @@
 All code belongs to [Dreytac](https://github.com/dreytac/). The original code is [here](https://github.com/Dreytac/AutCraftWebHelper).
 
 ## Optimized for different countries.
-AutcraftCA uses [Google Canada](google.ca). All countries that are supported go by the abbreviation of the country following the word Autcraft.
+AutcraftCA uses [Google Canada](google.ca).
 
 ## AutCraft Web Helper
 Changes various parts of the AutCraft website to make things a little easier.
