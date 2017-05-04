@@ -22,7 +22,6 @@ If you can find a way to install a user script in your browser of choice, the sc
 Once you have an extension / addon installed that supports user scripts, click the link below to install the user script in your browser:
 
 https://raw.githubusercontent.com/MODKILLER1001/AutCraftWebHelper/master/AutCraft.user.js
-https://raw.githubusercontent.com/MODKILLER1001/AutCraftWebHelper/master/AutCraftUS.user.js
 https://raw.githubusercontent.com/MODKILLER1001/AutCraftWebHelper/master/AutCraftCA.user.js
 
 ## Issues / Suggestions
