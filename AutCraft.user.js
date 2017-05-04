@@ -35,12 +35,12 @@ function addAdditionalLinks(jnode) {
     field.append("<br>>> <a target=\"_blank\" href=\"http://namemc.com/profile?" + username + "\">NameMC Profile (more in depth info about that player)</a>");
     field.append("<br>>> <a target=\"_blank\" href=\"http://minecraftnames.com/lookup.php?account=" + username + "\">Minecraft Name Lookup</a>");
     field.append("<br>>> <a target=\"_blank\" href=\"http://minecraft-skin-viewer.com/player/" + username + "\">Minecraft Skin Viewer</a>");
-    field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com.au/#newwindow=1&q=" + username + "\">Google (username)</a>");
-    field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com.au/#newwindow=1&q=%22" + username + "%22 youtube\">Google (YouTube)</a>");
-    field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com.au/#newwindow=1&q=%22" + username + "%22 minecraft\">Google (Minecraft)</a>");
-    field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com.au/#newwindow=1&q=%22" + username + "%22 ban\">Google (Ban)</a>");
-    field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com.au/#newwindow=1&q=%22" + username + "%22 minecraft ban\">Google (Minecraft + Ban)</a>");
-    field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com.au/#newwindow=1&q=%22" + username + "%22 4chan\">Google (4chan)</a>");
+    field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com/#newwindow=1&q=" + username + "\">Google (username)</a>");
+    field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com/#newwindow=1&q=%22" + username + "%22 youtube\">Google (YouTube)</a>");
+    field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com/#newwindow=1&q=%22" + username + "%22 minecraft\">Google (Minecraft)</a>");
+    field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com/#newwindow=1&q=%22" + username + "%22 ban\">Google (Ban)</a>");
+    field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com/#newwindow=1&q=%22" + username + "%22 minecraft ban\">Google (Minecraft + Ban)</a>");
+    field.append("<br>>> <a target=\"_blank\" href=\"https://www.google.com/#newwindow=1&q=%22" + username + "%22 4chan\">Google (4chan)</a>");
 }
 
 waitForKeyElements("div.app_inner_user", addAdditionalLinks);
