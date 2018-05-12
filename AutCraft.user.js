@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name         AutCraft Web Helper
 // @namespace    http://mantrasoftware.net/
-// @version      0.11
+// @version      0.12
 // @description  Changes various parts of the AutCraft website to make things a little easier.
 // @author       Rodney Beck (Forked and maintained by Mmpf and MODKILLER1001) <denney@mantrasoftware.net>
-// @match        http://www.autcraft.com/dashboard/applications/detail/id/*
-// @match        http://autcraft.com/dashboard/applications/detail/id/*
-// @match        http://www.autcraft.com/dashboard/applications/application?app_id=*
-// @match        http://autcraft.com/dashboard/applications/application?app_id=*
+// @match        https://www.autcraft.com/dashboard/applications/detail/id/*
+// @match        https://autcraft.com/dashboard/applications/detail/id/*
+// @match        https://www.autcraft.com/dashboard/applications/application?app_id=*
+// @match        https://autcraft.com/dashboard/applications/application?app_id=*
 // @grant        GM_xmlhttpRequest
 // @require      http://code.jquery.com/jquery-2.1.3.min.js
 // @require      https://gist.github.com/raw/2625891/waitForKeyElements.js
