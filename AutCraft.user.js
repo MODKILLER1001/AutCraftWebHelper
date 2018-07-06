@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         AutCraft Web Helper
 // @namespace    http://mantrasoftware.net/
-// @version      0.12
+// @version      0.13
 // @description  Changes various parts of the AutCraft website to make things a little easier.
 // @author       Rodney Beck (Forked and maintained by Mmpf and MODKILLER1001) <denney@mantrasoftware.net>
 // @match        *://*.autcraft.com/dashboard/applications/detail/id/*
