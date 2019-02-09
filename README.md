@@ -2,8 +2,8 @@
 All code belongs to [Dreytac](https://github.com/dreytac/). The original code is [here](https://github.com/Dreytac/AutCraftWebHelper).
 
 ## Optimized for different countries.
-[AutCraft](https://github.com/MODKILLER1001/AutCraftWebHelper/blob/master/AutCraft.user.js) uses [Google US](google.com).
-[AutCraftCA](https://github.com/MODKILLER1001/AutCraftWebHelper/blob/master/AutCraftCA.user.js) uses [Google Canada](google.ca).
+[AutCraft](https://github.com/MODKILLER1001/AutCraftWebHelper/blob/master/AutCraft.user.js) uses [Google US](https://google.com).
+[AutCraftCA](https://github.com/MODKILLER1001/AutCraftWebHelper/blob/master/AutCraftCA.user.js) uses [Google Canada](https://google.ca).
 
 ## AutCraft Web Helper
 Changes various parts of the AutCraft website to make things a little easier.
